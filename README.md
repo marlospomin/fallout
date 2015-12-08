@@ -16,7 +16,7 @@ The theme itself is in a "bare bones" state, no images, wrong colors, responsive
 
 # Demo (Screenshots only)
 
-Index - [here]("img/index.jpg")
+Index - [here](img/index.jpg)
 
 More demos coming soon, stay tuned.
 
@@ -47,11 +47,11 @@ If you’re able to patch it or add something, you might want to:
 
 # Credits
 
-Framework: [Bootstrap 3.3.5]("http://getbootstrap.com")
-Icons: [FontAwesome]("http://fortawesome.github.io/Font-Awesome")
-Vendor CSS: [Owl Carousel]("http://owlgraphic.com/owlcarousel")
-Vendor JS: [Isotope]("http://isotope.metafizzy.co")
+* Framework: [Bootstrap 3.3.5](http://getbootstrap.com)
+* Icons: [FontAwesome](http://fortawesome.github.io/Font-Awesome)
+* Vendor CSS: [Owl Carousel](http://owlgraphic.com/owlcarousel)
+* Vendor JS: [Isotope](http://isotope.metafizzy.co)
 
 # License
 
-Code released under the [MIT]("https://github.com/marlospomin/fallout/blob/master/LICENSE") license.
+Code released under the [MIT](https://github.com/marlospomin/fallout/blob/master/LICENSE) license.
