@@ -2,7 +2,7 @@
 
 Fallout is a personal project intended to fill my *kinda empty* portfolio, also it's designed to be a responsive/pixel-perfect HTML5/CSS3 front-end template. Once the project is ready it will be released as a freebie exclusively here on Github, feel free to share with your friends. Help me build this project (Check the Contribute section) it's really easy. Last but not least, Fallout will be reworked as a Rails project and should be available soon, ETA: ~Q1 2016.
 
-Note: This project is *very* active.
+Note: This project is *currently* active.
 
 ## Current State
 
@@ -26,7 +26,7 @@ Feel free contribute with your skills and help make this project come to life. P
 
 ## How to contribute
 
-* Create an Issue (If you found a bug and you don’t know how to fix it).
+Create an Issue (If you found a bug and you don’t know how to fix it).
 
 If you’re able to patch it or add something, you might want to:
 
