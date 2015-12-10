@@ -2,8 +2,6 @@
 
 Fallout is a personal project intended to fill my *kinda empty* portfolio, also it's designed to be a responsive/pixel-perfect HTML5/CSS3 front-end template. Once the project is ready it will be released as a freebie exclusively here on Github, feel free to share with your friends. Help me build this project (Check the Contribute section) it's really easy. Last but not least, Fallout will be reworked as a Rails project and should be available soon, ETA: ~Q1 2016.
 
-Note: This project is *currently* active.
-
 ## Current State
 
 The theme itself is in a "bare bones" state, no images, wrong colors, responsiveness issues, etc. There's A LOT to do, take a look in the demo below.
@@ -16,7 +14,7 @@ The theme itself is in a "bare bones" state, no images, wrong colors, responsive
 
 # Demo (Screenshots only)
 
-Index - [here](img/index.jpg)
+Index - [here](img/index.jpg) (Outdated)
 
 More demos coming soon, stay tuned.
 
@@ -39,7 +37,7 @@ If you’re able to patch it or add something, you might want to:
 # Goals (TODO)
 
 * Introduce colors/images.
-* Fix general font sizes, margins/paddings and responsive issues.
+* Fix general font sizes and responsive issues.
 * Rework the content, aka lorem ipsum stuff.
 * General fix, code clean up.
 * Polish the index page.
@@ -49,6 +47,7 @@ If you’re able to patch it or add something, you might want to:
 
 * Framework: [Bootstrap 3.3.5](http://getbootstrap.com)
 * Icons: [FontAwesome](http://fortawesome.github.io/Font-Awesome)
+* Images: [Unsplash](http://unsplash.com)
 * Vendor CSS: [Owl Carousel](http://owlgraphic.com/owlcarousel)
 * Vendor JS: [Isotope](http://isotope.metafizzy.co)
 
