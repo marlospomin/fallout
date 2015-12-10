@@ -124,22 +124,28 @@ h1, h2, h3, h4, h5, h6 {
 /* Jumbotron */
 
 .jumbotron {
-  background: url("") ignore no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background-color: #555;
+  display: block;
   padding-bottom: 140px;
-  padding-top: 140px;
-/*
-  min-height: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-*/
+  padding-top: 150px;
+  position: relative;
+  z-index: 999;
+}
+
+.jumbotron:after {
+  background: url("https://unsplash.com/photos/xJ2tjuUHD9M/download") no-repeat center center fixed;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .jumbotron .col-md-5 div {
-  margin-top: 60px;
+  margin-top: 75px;
 }
 
 .jumbotron h2 {
@@ -167,6 +173,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Features */
+
+.features {
+  margin-top: -30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
 
 .features .col-md-4 {
   margin-bottom: 50px;
@@ -198,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-heading {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .grid-item {
@@ -247,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .effect h5 {
-  opacity: 0.85;
+  opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transition: -webkit-transform 0.25s;
@@ -286,11 +298,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Featurete */
 
 .featurete {
-  background: url("") ignore no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background-color: #555;
+  display: block;
+  position: relative;
   padding-top: 50px;
+  z-index: 998;
+}
+
+.featurete:after {
+  background: url("https://unsplash.com/photos/xJ2tjuUHD9M/download") no-repeat center center fixed;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .featurete h4 {
@@ -303,21 +327,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-ad {
-  height: 100px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  line-height: 100px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .banner-ad .btn {
   margin-left: 10px;
 }
 
+.ad-twitter {
+  margin-bottom: 0;
+}
+
 /* Blog */
 
 .blog {
-  margin-bottom: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 55px;
 }
 
 .blog h2 {
@@ -368,36 +394,54 @@ h1, h2, h3, h4, h5, h6 {
 /* Twitter Updates */
 
 .twitter-updates {
-  padding-top: 75px;
+  background-color: #555;
+  display: block;
+  position: relative;
   padding-bottom: 75px;
+  padding-top: 75px;
+  z-index: 998;
 }
 
-.owl-theme .owl-controls .owl-buttons div {
-  border-radius: 0px !important;
-  position: absolute;
-}
- 
-.owl-theme .owl-controls .owl-buttons .owl-prev {
-  background: none;
-  border-radius: 10px;
-  color: #333;
-  font-size: 30px;
-  height: 50px;
+.twitter-updates:after {
+  background: url("https://unsplash.com/photos/xJ2tjuUHD9M/download") no-repeat center center fixed;
+  content: "";
+  height: 100%;
   left: 0;
-  top: 0;
-  width: 50px;
-}
- 
-.owl-theme .owl-controls .owl-buttons .owl-next {
-  background: none;
-  border-radius: 10px;
-  color: #333;
-  font-size: 30px;
-  height: 50px;
+  opacity: 0.5;
+  position: absolute;
   right: 0;
   top: 0;
-  width: 50px;
+  z-index: -1;
 }
+
+/*
+  .owl-theme .owl-controls .owl-buttons div {
+    border-radius: 0px !important;
+    position: absolute;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    background: none;
+    border-radius: 10px;
+    color: #333;
+    font-size: 30px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    width: 50px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    background: none;
+    border-radius: 10px;
+    color: #333;
+    font-size: 30px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    width: 50px;
+  }
+*/
 
 /* Footer */
 
