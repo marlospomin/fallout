@@ -126,8 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
   background-color: #555;
   display: block;
-  padding-bottom: 140px;
-  padding-top: 150px;
+  padding-bottom: 130px;
+  padding-top: 140px;
   position: relative;
   z-index: 999;
 }
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-heading {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .grid-item {
@@ -322,6 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featurete hr {
+  border-color: #555;
   margin-bottom: 25px;
   margin-top: 5px;
 }
@@ -391,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 	transform: scale3d(1.1, 1.1, 1);
 }
 
-/* Twitter Updates */
+/* Updates */
 
 .twitter-updates {
   background-color: #555;
@@ -414,34 +415,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-/*
-  .owl-theme .owl-controls .owl-buttons div {
-    border-radius: 0px !important;
-    position: absolute;
-  }
-
-  .owl-theme .owl-controls .owl-buttons .owl-prev {
-    background: none;
-    border-radius: 10px;
-    color: #333;
-    font-size: 30px;
-    height: 50px;
-    left: 0;
-    top: 0;
-    width: 50px;
-  }
-
-  .owl-theme .owl-controls .owl-buttons .owl-next {
-    background: none;
-    border-radius: 10px;
-    color: #333;
-    font-size: 30px;
-    height: 50px;
-    right: 0;
-    top: 0;
-    width: 50px;
-  }
-*/
+.owl-pagination .owl-page span {
+  height: 11px !important;
+  opacity: 0.5;
+  width: 11px !important;
+}
 
 /* Footer */
 
@@ -461,8 +439,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
 }
 
-.footer .footer-logo-desc, .footer .micro, .footer .micro h5 {
+.footer .micro, .footer .micro h5 {
   font-size: 12px;
+}
+
+.footer .micro {
+  margin-top: 15px;
+}
+
+.footer .micro hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.footer .micro h5 {
+  margin-bottom: 5px;
 }
 
 .footer .micro p a {
@@ -472,6 +463,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer .micro p a:hover {
   color: #333 !important;
+}
+
+.footer .social .icons {
+  margin-top: 15px;
 }
 
 .footer .social .icons li:not(:first-child) {
@@ -486,13 +481,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #555 !important;
 }
 
-.footer .micro {
-  margin-top: 15px;
-}
-
 .footer .effect {
   border-radius: 2px;
-  margin-left: -6px;
+  margin-left: -10px;
+}
+
+.footer .featured-work {
+  line-height: 15px;
+  margin-left: -2px;
+  margin-top: 15px;
+  padding-left: 4px;
 }
 
 .footer .featured-work img {
@@ -505,32 +503,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .contact-info i {
-  margin-right: 5px;
+  font-size: 16px;
+  margin-right: 10px;
 }
 
 .footer .contact-info a {
-  color: #555;
+  color: #333;
   text-decoration: none;
 }
 
 .footer .contact-info a:hover {
-  color: #333 !important;
+  color: #555 !important;
 }
 
 .footer .sub-footer {
   margin-top: 30px;
-  padding-top: 10px;
-  line-height: 20px;
+  padding-top: 20px;
+  line-height: 35px;
 }
 
 .footer .sub-footer .fa {
   color: #555;
   margin-left: 2px;
   margin-right: 2px;
-}
-
-.footer .sub-footer, .footer .sub-footer .fa {
-  font-size: 14px;
 }
 
 /* Media Queries */
@@ -540,9 +535,6 @@ h1, h2, h3, h4, h5, h6 {
   .grid-item {
     width: 383px;
     margin-bottom: 50px;
-  }
-  .owl-theme .owl-controls .owl-buttons div {
-    visibility: hidden;
   }
 }
 
