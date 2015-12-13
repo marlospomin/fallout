@@ -20,7 +20,7 @@ More demos coming soon, stay tuned.
 
 # Contribute
 
-Feel free contribute with your skills and help make this project come to life. Ps: In fact I'd love to get some help.
+Feel free contribute with your skills and help make this project come to life.
 
 ## How to contribute
 
