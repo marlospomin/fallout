@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  border: hidden;
   background-color: #fa6464;
+  border: hidden;
   letter-spacing: 1px;
 }
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav li a {
-  color: #fff;
+  color: #ccc;
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav .active a {
-  color: #ccc;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shrink .navbar-nav li a {
-  color: #555;
+  color: #999;
   height: 75px;
   line-height: 46px;
 }
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shrink .navbar-nav .active a {
-  color: #999;
+  color: #555;
 }
 
 .shrink .navbar-nav .btn {
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron:after {
-  background: url("https://unsplash.com/photos/xJ2tjuUHD9M/download") no-repeat center center fixed;
+  background: url("https://unsplash.com/photos/Za0O5DovZBc/download") no-repeat center center fixed;
   background-size: cover;
   content: "";
   height: 100%;
@@ -164,18 +164,15 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron h2 {
   color: #fff;
   font-size: 32px;
-  font-weight: 700;
   margin-top: -8px;
 }
 
 .jumbotron h2:first-child {
   font-size: 36px;
-  font-weight: 700;
 }
 
 .jumbotron h2:last-child {
   font-size: 28px;
-  font-weight: 300;
 }
 
 .jumbotron h2:not(:last-child) {
@@ -183,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron .text-muted {
-  color: #eee;
+  color: #ccc;
   font-size: 14px;
 }
 
@@ -210,9 +207,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features .fa {
-  color: #999;
+  color: #555;
   font-size: 54px;
   margin-top: 50px;
+}
+
+.features p {
+  color: #555;
 }
 
 /* Portifolio */
@@ -235,7 +236,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-heading {
-  padding-bottom: 15px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+}
+
+.portfolio-heading p {
+  color: #555;
 }
 
 .grid-item {
@@ -316,8 +322,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-btn {
-  margin-bottom: 50px;
-  margin-top: 25px;
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
 
 /* Featurete */
@@ -331,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featurete:after {
-  background: url("https://unsplash.com/photos/xJ2tjuUHD9M/download") no-repeat center center fixed;
+  background: url("https://unsplash.com/photos/Za0O5DovZBc/download") no-repeat center center fixed;
   background-size: cover;
   content: "";
   height: 100%;
@@ -349,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featurete p {
-  color: #eee;
+  color: #ccc;
 }
 
 .featurete hr {
@@ -385,10 +391,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog .thumbnail {
   border: none;
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid #555;
   border-radius: 2px;
   overflow: hidden;
   padding: 0;
+}
+
+.blog .thumbnail p, .blog .thumbnail span {
+  color: #555;
 }
 
 .blog .thumbnail .blog-container {
@@ -436,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .twitter-updates:after {
-  background: url("https://unsplash.com/photos/xJ2tjuUHD9M/download") no-repeat center center fixed;
+  background: url("https://unsplash.com/photos/Za0O5DovZBc/download") no-repeat center center fixed;
   background-size: cover;
   content: "";
   height: 100%;
@@ -453,17 +463,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 25px;
 }
 
-.twitter-updates p {
-  color: #eee;
-}
-
-.twitter-updates span {
+.twitter-updates p, .twitter-updates span {
   color: #ccc;
 }
 
 .twitter-updates .owl-pagination .owl-page span {
+  background-color: #ccc !important;
   height: 11px !important;
-  opacity: 0.5;
   width: 11px !important;
 }
 
@@ -548,6 +554,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5px;
 }
 
+.footer .text-muted {
+  color: #555;
+}
+
 .footer .contact-info i {
   font-size: 16px;
   margin-right: 10px;
@@ -559,6 +569,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .contact-info a:hover {
+  color: #555 !important;
+}
+
+.footer .contact-info a, .footer .contact-info i {
   color: #555 !important;
 }
 
