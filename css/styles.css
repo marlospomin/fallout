@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background-color: #fa6464;
+  background-color: #555;
   border: hidden;
   letter-spacing: 1px;
 }
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #ea6464;
+  background-color: #333;
 }
 
 .btn-primary:active {
@@ -237,7 +237,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-heading {
   padding-bottom: 35px;
-  padding-top: 25px;
 }
 
 .portfolio-heading p {
@@ -577,9 +576,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .sub-footer {
-  margin-top: 30px;
-  padding-top: 20px;
-  line-height: 35px;
+  margin-top: 20px;
+  padding-top: 10px;
+  line-height: 30px;
 }
 
 .footer .sub-footer .fa {
