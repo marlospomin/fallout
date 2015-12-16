@@ -4,11 +4,6 @@ $(function () {
   $(".owl-carousel").owlCarousel({
     autoPlay: true,
     singleItem: true
-/*  navigation: true,
-    navigationText: [
-      "<i class='fa fa-arrow-left'></i>",
-      "<i class='fa fa-arrow-right'></i>"
-    ] */
   });
   
   var $container = $(".grid").isotope({
