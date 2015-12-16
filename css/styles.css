@@ -145,12 +145,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron:after {
-  background: url("https://unsplash.com/photos/Za0O5DovZBc/download") no-repeat center center fixed;
+  background: url("../img/10.jpg") no-repeat center center fixed;
   background-size: cover;
   content: "";
   height: 100%;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.75;
   position: absolute;
   right: 0;
   top: 0;
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featurete:after {
-  background: url("https://unsplash.com/photos/Za0O5DovZBc/download") no-repeat center center fixed;
+  background: url("../img/10.jpg") no-repeat center center fixed;
   background-size: cover;
   content: "";
   height: 100%;
@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .twitter-updates:after {
-  background: url("https://unsplash.com/photos/Za0O5DovZBc/download") no-repeat center center fixed;
+  background: url("../img/10.jpg") no-repeat center center fixed;
   background-size: cover;
   content: "";
   height: 100%;
