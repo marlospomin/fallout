@@ -4,7 +4,7 @@ Fallout is a personal project designed to be a responsive/pixel-perfect HTML5/CS
 
 ## Current State
 
-The theme itself is in a "bare bones" state, wrong colors, responsiveness issues, etc. There's A LOT to do, take a look in the demo below.
+The theme itself is in a "almost-ready" state. AKA *75%* Done.
 
 # Usage
 
@@ -36,12 +36,10 @@ If you’re able to patch it or add something, you might want to:
 
 # Goals (TODO)
 
-* Add colors.
-* Fix general font sizes and responsive issues.
-* Rework the content, aka lorem ipsum stuff.
 * General fix, code clean up.
 * Polish the index page.
 * Create the missing pages (About, Contact, Portfolio, etc.).
+* Add RoR version.
 
 # Credits
 
