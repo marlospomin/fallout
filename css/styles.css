@@ -16,6 +16,9 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   border: 2px solid #333;
   font-family: 'Montserrat', sans-serif;
+  -webkit-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  transition: 0.35s ease;
 }
 
 .btn-primary {
@@ -128,15 +131,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default, .navbar-default .navbar-brand, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav li .btn, .shrink {
-  -webkit-transition: ease 0.35s;
-  -moz-transition: ease 0.35s;
-  transition: ease 0.35s;
+  -webkit-transition: 0.35s ease;
+  -moz-transition: 0.35s ease;
+  transition: 0.35s ease;
 }
 
 /* Jumbotron */
 
 .jumbotron {
-  background-color: #555;
+  background-color: #333;
   display: block;
   padding-bottom: 130px;
   padding-top: 140px;
@@ -207,8 +210,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features .fa {
-  color: #555;
-  font-size: 54px;
+  color: #353535;
+  font-size: 44px;
   margin-top: 50px;
 }
 
@@ -228,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-group .active {
   background: none !important;
-  border-color: #777;
+  border-color: #555;
 }
 
 .btn-group .btn {
@@ -236,11 +239,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-heading {
-  padding-bottom: 35px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .portfolio-heading p {
   color: #555;
+}
+
+.grid {
+  transition: 0.35s ease;
 }
 
 .grid-item {
@@ -321,14 +329,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-btn {
-  padding-bottom: 35px;
-  padding-top: 35px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /* Featurete */
 
 .featurete {
-  background-color: #555;
+  background-color: #333;
   display: block;
   position: relative;
   padding-top: 50px;
@@ -374,8 +382,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 10px;
 }
 
+.feature-ad {
+  color: #ccc;
+  background-color: #353535;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.feature-ad .btn {
+  border-color: #ccc;
+  color: #ccc;
+}
+
+.feature-ad .btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #222;
+}
+
 .ad-twitter {
   margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 /* Blog */
@@ -436,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Updates */
 
 .twitter-updates {
-  background-color: #555;
+  background-color: #333;
   display: block;
   position: relative;
   padding-bottom: 75px;
@@ -462,8 +490,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 25px;
 }
 
-.twitter-updates p, .twitter-updates span {
+.twitter-updates a:hover {
+  color: #777;
+  transition: 0.35s ease;
+}
+
+.twitter-updates p, .twitter-updates span, .twitter-updates a {
   color: #ccc;
+  text-decoration: none !important;
 }
 
 .twitter-updates .owl-pagination .owl-page span {
@@ -475,14 +509,24 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 
 .footer {
+  background-color: #252525;
   padding-top: 50px;
+}
+
+.footer hr {
+  opacity: 0.5;
 }
 
 .footer .col-md-3 {
   margin-bottom: 20px;
 }
 
+.footer .col-md-3 h4, .footer .col-md-3 h5 {
+  color: #eee !important;
+}
+
 .footer .footer-logo {
+  color: #eee;
   font-family: 'Montserrat', sans-serif;
   font-size: 34px;
   font-weight: 700;
@@ -504,16 +548,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .micro h5 {
+  color: #fff;
   margin-bottom: 5px;
 }
 
-.footer .micro p a {
-  color: #555;
+.footer .micro p, .footer .micro p a {
+  color: #ccc;
   text-decoration: none;
 }
 
 .footer .micro p a:hover {
-  color: #333 !important;
+  color: #555 !important;
+  transition: 0.35s ease;
 }
 
 .footer .social .icons {
@@ -525,15 +571,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .social .icons a {
-  color: #777;
+  color: #aaa;
 }
 
 .footer .social .icons a:hover {
   color: #555 !important;
+  transition: 0.35s ease;
 }
 
 .footer .effect {
-  border-radius: 2px;
   margin-left: -10px;
 }
 
@@ -554,7 +600,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer .text-muted {
-  color: #555;
+  color: #ccc;
 }
 
 .footer .contact-info i {
@@ -562,27 +608,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 
-.footer .contact-info a {
-  color: #333;
-  text-decoration: none;
-}
-
-.footer .contact-info a:hover {
-  color: #555 !important;
-}
-
-.footer .contact-info a, .footer .contact-info i {
-  color: #555 !important;
+.footer .contact-info p, .footer .contact-info i {
+  color: #ccc !important;
 }
 
 .footer .sub-footer {
+  background-color: #151515;
+  border-top: 4px dotted #222;
+  color: #ccc;
   margin-top: 20px;
   padding-top: 10px;
   line-height: 30px;
 }
 
 .footer .sub-footer .fa {
-  color: #555;
+  color: #ccc;
   margin-left: 2px;
   margin-right: 2px;
 }
@@ -591,31 +631,133 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+  
+  .jumbotron {
+    padding-bottom: 140px;
+    padding-top: 100px;
+  }
+  
+  .jumbotron .col-md-5 {
+    text-align: center;
+  }
+  
+  .features .col-md-4 {
+    margin-bottom: 0;
+  }
+  
   .grid-item {
-    width: 383px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    width: auto;
+  }
+  
+  .portfolio-btn {
+    padding-top: 10px;
+  }
+  
+  .featurete h4, .featurete p {
+    text-align: center;
+  }
+  
+  .featurete img {
+    margin-top: 25px;
+  }
+  
+  .feature-ad .btn {
+    font-size: 12px !important;
+    margin-left: 5px;
+  }
+  
+  .blog .btn {
+    margin-bottom: -20px;
+    margin-top: 10px;
+  }
+  
+  .twitter-updates {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  .ad-twitter .btn {
+    margin-left: 5px;
   }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+  .jumbotron {
+    padding-top: 90px;
+  }
+  
+  .jumbotron .col-md-5 {
+    text-align: center;
+  }
+  
+  .features .col-md-4 {
+    margin-bottom: 0;
+  }
+  
+  .grid {
+    left: 17.5%;
+  }
+  
   .grid-item {
-    width: 353px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+    width: auto;
+  }
+  
+  .portfolio-btn {
+    padding-top: 10px;
+  }
+  
+  .featurete h4, .featurete p {
+    text-align: center;
+  }
+  
+  .featurete img {
+    margin-top: 25px;
+  }
+  
+  .feature-ad .btn {
+    font-size: 12px !important;
+    margin-left: 5px;
+  }
+  
+  .blog .btn {
+    margin-bottom: -20px;
+    margin-top: 10px;
+  }
+  
+  .twitter-updates {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  .ad-twitter .btn {
+    margin-left: 5px;
   }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  .jumbotron img {
+    margin-top: 50px;
+  }
+  
   .grid-item {
-    margin-bottom: 50px;
     width: 360px;
   }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .grid-item {
-      width: 235px;
+  
+  .portfolio-btn {
+    padding-top: 30px;
+  }
+  
+  .featurete h4, .featurete p {
+    text-align: center;
+  }
+  
+  .featurete img {
+    margin-top: 25px;
   }
 }
