@@ -4,7 +4,7 @@ Fallout is a personal project designed to be a responsive/pixel-perfect HTML5/CS
 
 ## Current State
 
-The theme itself is in a "almost-ready" state. AKA *75%* Done.
+The theme itself is in a "almost-ready" state. Home page: *75%* done.
 
 # Usage
 
