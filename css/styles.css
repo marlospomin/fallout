@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary:active {
-  background-color: #ea6464 !important;
+  background-color: #333 !important;
 }
 
 .btn-default:hover, .btn-default:focus {
@@ -102,6 +102,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #555;
   font-size: 34px;
   height: 75px;
+}
+
+.shrink .navbar-brand:hover {
+  color: #777;
 }
 
 .shrink .navbar-brand {
@@ -201,7 +205,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .features {
   margin-top: -30px;
-  padding-bottom: 25px;
   padding-top: 25px;
 }
 
@@ -413,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog h2 {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .blog .thumbnail {
@@ -424,8 +427,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-.blog .thumbnail p, .blog .thumbnail span {
+.blog .thumbnail p, .blog .thumbnail span, .blog .thumbnail a {
   color: #555;
+  text-decoration: none;
+}
+
+.blog .thumbnail a:hover {
+  color: #999;
+  transition: 0.35s ease;
 }
 
 .blog .thumbnail .blog-container {
@@ -627,10 +636,101 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 2px;
 }
 
+/* Collapse */
+
+.collapsing {
+  background: #333;
+  border: none;
+  max-height: 100%;
+  text-align: center;
+  transition: all 0.03s ease;
+  overflow: visible;
+}
+
+.collapsing .navbar-nav li a {
+  line-height: 39px;
+  visibility: hidden;
+}
+
+.collapsing .navbar-nav li .btn {
+  background: none;
+  color: #ccc;
+}
+
+.shrink .collapsing {
+  background-color: #fff;
+}
+
 /* Media Queries */
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+  
+  .navbar-default .navbar-brand {
+    font-size: 32px;
+  }
+  
+  .navbar-default .navbar-header .navbar-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    line-height: 65px;
+  }
+
+  .navbar-default .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+    background: none;
+    color: #555;
+    transition: 0.35s ease;
+  }
+
+  .navbar-default .collapse {
+    background: #333;
+    border: none;
+    max-height: 100%;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .navbar-default .collapse .navbar-nav li a:hover {
+    color: #eee;
+  }
+
+  .navbar-default .collapse .navbar-nav li a {
+    line-height: 39px;
+    z-index: 999;
+  }
+
+  .navbar-default .collapse .navbar-nav li .btn {
+    background: none;
+    color: #ccc;
+  }
+
+  .navbar-default .collapse .navbar-nav li .btn:hover, .navbar-default .collapse .navbar-nav li .btn:focus {
+    background: #555 !important;
+    color: #eee;
+  }
+
+  .shrink .navbar-header .navbar-toggle {
+    color: #555;
+    line-height: 40px;
+  }
+
+  .shrink .navbar-header .navbar-toggle:hover {
+    color: #777;
+  }
+
+  .shrink .collapse {
+    background-color: #fff;
+  }
+  
+  .shrink .collapse .navbar-nav li .btn {
+    color: #999;
+  }
+  
+  .shrink .collapse .navbar-nav li .btn:hover {
+    color: #ccc;
+  }
   
   .jumbotron {
     padding-bottom: 140px;
@@ -641,17 +741,20 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   
+  .jumbotron h2:first-child {
+    font-size: 34px;
+  }
+  
   .features .col-md-4 {
     margin-bottom: 0;
   }
   
   .grid-item {
-    margin-bottom: 25px;
     width: auto;
   }
   
   .portfolio-btn {
-    padding-top: 10px;
+    padding-top: 30px;
   }
   
   .featurete h4, .featurete p {
@@ -685,6 +788,72 @@ h1, h2, h3, h4, h5, h6 {
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   
+  .navbar-default .navbar-brand {
+    font-size: 34px;
+  }
+  
+  .navbar-default .navbar-header .navbar-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    line-height: 65px;
+  }
+
+  .navbar-default .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+    background: none;
+    color: #555;
+    transition: 0.35s ease;
+  }
+
+  .navbar-default .collapse {
+    background: #333;
+    border: none;
+    max-height: 100%;
+    text-align: center;
+    overflow: visible;
+  }
+  
+  .navbar-default .collapse .navbar-nav li a:hover {
+    color: #eee;
+  }
+
+  .navbar-default .collapse .navbar-nav li a {
+    line-height: 39px;
+    z-index: 999;
+  }
+
+  .navbar-default .collapse .navbar-nav li .btn {
+    background: none;
+    color: #ccc;
+  }
+
+  .navbar-default .collapse .navbar-nav li .btn:hover, .navbar-default .collapse .navbar-nav li .btn:focus {
+    background: #555 !important;
+    color: #eee;
+  }
+
+  .shrink .navbar-header .navbar-toggle {
+    color: #555;
+    line-height: 40px;
+  }
+
+  .shrink .navbar-header .navbar-toggle:hover {
+    color: #777;
+  }
+
+  .shrink .collapse {
+    background-color: #fff;
+  }
+  
+  .shrink .collapse .navbar-nav li .btn {
+    color: #999;
+  }
+  
+  .shrink .collapse .navbar-nav li .btn:hover {
+    color: #ccc;
+  }
+  
   .jumbotron {
     padding-top: 90px;
   }
@@ -697,17 +866,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
   }
   
-  .grid {
-    left: 17.5%;
+  .portfolio {
+    overflow: hidden;
   }
   
   .grid-item {
-    margin-bottom: 25px;
+    margin-left: 22%;
+    margin-right: 24%;
     width: auto;
   }
   
   .portfolio-btn {
-    padding-top: 10px;
+    padding-top: 30px;
   }
   
   .featurete h4, .featurete p {
@@ -745,19 +915,44 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
   }
   
-  .grid-item {
-    width: 360px;
-  }
-  
   .portfolio-btn {
     padding-top: 30px;
   }
   
+  .grid {
+    margin-left: 22%;
+    margin-right: 22%;
+  }
+  
+  .grid-item {
+    width: auto;
+  }
+
   .featurete h4, .featurete p {
     text-align: center;
   }
   
   .featurete img {
     margin-top: 25px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
+  .jumbotron h2:first-child {
+    font-size: 30px;
+  }
+  
+  .grid-item {
+    width: 310px;
+  }
+  
+  .featurete img {
+    padding-top: 130px;
+  }
+  
+  .featurete .micro-feature:last-child {
+    margin-bottom: 30px;
   }
 }
