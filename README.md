@@ -12,11 +12,9 @@ The home page is in a "almost-ready" state. *85%* done.
 2. Open with your text editor/browser.
 3. Enjoy.
 
-# Demo (Screenshots only)
+# Demo (Live Preview only)
 
-Index - [here](img/index.png) *OUTDATED*
-
-More demos coming soon, stay tuned.
+Demo [here](https://fallout-rails.herokuapp.com/)
 
 # Contribute
 
