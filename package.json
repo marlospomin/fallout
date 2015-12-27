@@ -1,0 +1,15 @@
+{
+  "name": "fallout",
+  "description": "A HTML5/CSS3 front-end template",
+  "version": "1.0.0",
+  "author": "Marlos Pomin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marlospomin/fallout.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-less": "~1.0.1"
+  }
+}
