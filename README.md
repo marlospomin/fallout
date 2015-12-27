@@ -1,10 +1,6 @@
 # About
 
-Fallout is a personal project designed to be a responsive/pixel-perfect HTML5/CSS3 front-end template. Once the project is ready it will be released as a freebie exclusively here on Github. Help me build this project (Check the Contribute section) it's really easy. Last but not least, Fallout will be reworked as a Rails project and should be available soon, ETA: 22-31 Dec.
-
-## Current State
-
-The home page is in a "almost-ready" state. *85%* done.
+Fallout is a clean, modern and responsive front-end template. Help me improve this project (Check *Contribute* section) it's really easy. Last but not least, check out Fallout's rails project [here](https://github.com/marlospomin/fallout-rails).
 
 # Usage
 
@@ -12,13 +8,23 @@ The home page is in a "almost-ready" state. *85%* done.
 2. Open with your text editor/browser.
 3. Enjoy.
 
-# Demo (Live Preview only)
+## LESS
 
-Demo [here](https://fallout-rails.herokuapp.com/)
+Compiling less files to css using grunt:
+
+1. Install node.js.
+2. Install grunt globally using *npm install -g grunt-cli*.
+3. Open terminal/cmd and navigate to the project folder.
+4. Type *npm install* to manage dependencies.
+5. Type *grunt less* to compile, change [Gruntfile](Gruntfile.js) options to compress, etc.
+
+# Demo
+
+*LIVE* [here](https://fallout-rails.herokuapp.com/)
 
 # Contribute
 
-Feel free contribute with your skills and help make this project come to life.
+Feel free contribute with your skills and help improve this project.
 
 ## How to contribute
 
@@ -31,14 +37,6 @@ If you’re able to patch it or add something, you might want to:
 3. Make changes && test your code.
 4. Push your branch && Open a pull request.
 6. That's it, thanks!
-
-# Goals (TODO)
-
-* General fix, code clean up. *In Progress*
-* Add LESS Support.
-* Polish.
-* Create the missing pages (About, Contact, Portfolio, etc.) *Not Sure*
-* Add RoR version.
 
 # Credits
 
