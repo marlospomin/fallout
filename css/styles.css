@@ -176,6 +176,11 @@ h6 {
   background-color: #ffffff;
   color: #333333;
 }
+.jumbotron .btn-default:active {
+  background: none !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
 .features {
   margin-top: -30px;
   padding-top: 25px;
